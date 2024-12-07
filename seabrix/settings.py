@@ -93,8 +93,7 @@ DATABASES = {
 
 import dj_database_url
 
-
-DATABASE_URL = "postgresql://postgres:eouGSZkPrYCcwGRPxMtRBeAPyAlVWUxU@postgres.railway.internal:5432/railway"
+DATABASE_URL = os.getenv("DATABASE_URL", "").strip()  # Remove espaços e caracteres invisíveis
 
 if DATABASE_URL:
     DATABASES = {
