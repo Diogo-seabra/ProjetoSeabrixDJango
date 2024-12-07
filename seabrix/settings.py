@@ -93,7 +93,7 @@ DATABASES = {
 
 import dj_database_url
 
-DATABASE_URL = os.getenv("DATABASE_URL", "").strip()  # Remove espaços e caracteres invisíveis
+DATABASE_URL = os.getenv("DATABASE_URL")  # Remove espaços e caracteres invisíveis
 
 if DATABASE_URL:
     DATABASES = {
