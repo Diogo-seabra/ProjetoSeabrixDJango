@@ -21,14 +21,14 @@ O objetivo principal foi replicar aspectos fundamentais de plataformas de stream
 ## Estrutura do Projeto
 
 ProjetoSeabrixDJango/ <br>
-│
-├── filme/               # App principal do projeto. 
-├── media/               # Armazenamento de imagens (thumbnails dos filmes).
-├── static/              # Arquivos CSS, JavaScript e imagens.
-├── templates/           # Templates HTML reutilizáveis.
-├── seabrix/             # Configurações principais do projeto Django.
-├── requirements.txt     # Dependências do projeto.
-└── Procfile             # Configurações para deploy no Heroku.
+│ <br>
+├── filme/               # App principal do projeto.  <br>
+├── media/               # Armazenamento de imagens (thumbnails dos filmes). <br>
+├── static/              # Arquivos CSS, JavaScript e imagens. <br>
+├── templates/           # Templates HTML reutilizáveis. <br>
+├── seabrix/             # Configurações principais do projeto Django. <br>
+├── requirements.txt     # Dependências do projeto. <br>
+└── Procfile             # Configurações para deploy no Railway. <br>
 
 ## Pré-requisitos
 
@@ -37,7 +37,11 @@ ProjetoSeabrixDJango/ <br>
 * PostgreSQL
 * Ambiente virtual configurado.
 
-## Instalação e Execução
+## Caso queira testar esse projeto funcionando
+
+https://projetoseabrixdjango-production.up.railway.app/
+
+## Instalação e Execução no VS Code
 
 1. Clone o repositório:
    ```bash
@@ -54,20 +58,14 @@ ProjetoSeabrixDJango/ <br>
    ````bash
    pip install -r requirements.txt
 
-4. Configure o banco de dados no arquivo settings.py.
-
-5. Execute as migrações:
+4. Execute as migrações:
    ````bash
    python manage.py migrate
 
-6. Inicie o servidor:
+5. Inicie o servidor:
    ````bash
    python manage.py runserver
 
-## Deploy
-
-Este projeto está preparado para deploy no Railway.
-Certifique-se de incluir variáveis de ambiente no Railway para configurar o banco de dados e outras dependências.
 
 ## Contribuições
 
