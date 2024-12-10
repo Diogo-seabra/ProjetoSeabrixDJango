@@ -20,9 +20,9 @@ O objetivo principal foi replicar aspectos fundamentais de plataformas de stream
 
 ## Estrutura do Projeto
 
-ProjetoSeabrixDJango/
+ProjetoSeabrixDJango/ <br>
 │
-├── filme/               # App principal do projeto.
+├── filme/               # App principal do projeto. 
 ├── media/               # Armazenamento de imagens (thumbnails dos filmes).
 ├── static/              # Arquivos CSS, JavaScript e imagens.
 ├── templates/           # Templates HTML reutilizáveis.
