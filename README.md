@@ -2,6 +2,10 @@
 
 Este projeto é uma cópia funcional da Netflix desenvolvida para fins acadêmicos. Ele foi criado utilizando Django e integra várias tecnologias modernas, destacando-se pela implementação de Class-Based Views, estilização avançada e autenticação de usuários.
 
+## Caso queira testar esse projeto funcionando de forma online
+
+https://projetoseabrixdjango-production.up.railway.app/
+
 ## Descrição
 
 O objetivo principal foi replicar aspectos fundamentais de plataformas de streaming como a Netflix. O projeto inclui:
@@ -37,9 +41,6 @@ ProjetoSeabrixDJango/ <br>
 * PostgreSQL
 * Ambiente virtual configurado.
 
-## Caso queira testar esse projeto funcionando de forma online
-
-https://projetoseabrixdjango-production.up.railway.app/
 
 ## Caso queira testar esse projeto de forma local, siga o passo a passo de instalação e execução no VS Code
 
