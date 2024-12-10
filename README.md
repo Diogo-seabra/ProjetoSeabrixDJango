@@ -37,11 +37,11 @@ ProjetoSeabrixDJango/ <br>
 * PostgreSQL
 * Ambiente virtual configurado.
 
-## Caso queira testar esse projeto funcionando
+## Caso queira testar esse projeto funcionando de forma online
 
 https://projetoseabrixdjango-production.up.railway.app/
 
-## Instalação e Execução no VS Code
+## Caso queira testar esse projeto de forma local, siga o passo a passo de instalação e execução no VS Code
 
 1. Clone o repositório:
    ```bash
